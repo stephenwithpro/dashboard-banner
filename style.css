@@ -1,0 +1,101 @@
+/* new search */
+.hl_header--controls .global-search {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.33);
+  border: 1px solid #fff;
+  border-radius: 16px;
+  padding: 8px 12px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.269);
+}
+
+
+.hl_header--controls .global-search svg {
+  font-size: 17px;
+  height: 17px;
+  display: inline-block;
+}
+
+.hl_header--controls .global-search .global-search-text {
+  margin-left: 8px;
+}
+
+.container-fluid > .hl_header--controls .quick-actions {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+  background: #151515 !important;
+  background-image: var(--header-icon-bg-gradient) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.269);
+}
+
+.container-fluid > .hl_header--controls .quick-actions:hover {
+  color: #fff !important;
+  background: #151515 !important;
+}
+
+#hl_header--help-icon {
+  color: #fff !important;
+  background: #151515 !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.269);
+}
+
+.container-fluid > .hl_header--controls .quick-actions .new-quick-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quick-actions .new-quick-actions > svg {
+  color: #fff;
+  height: 17px !important;
+  width: 17px !important;
+}
+
+.hl_header--controls .pop-up {
+  background-color: white;
+  position: absolute;
+  border: 1px solid #0000008e;
+  border-radius: 16px;
+  padding: 16px;
+  flex-direction: column;
+  z-index: 10;
+  top: 55px;
+  right: 220px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.269);
+}
+
+.hl_header--controls .pop-up svg {
+  stroke: #007fff !important;
+}
+
+ .welcome-container {
+ border-style:solid;
+ border-width:1px;
+ border-color:#ffffff;
+ background-color:#151515;
+ margin-bottom:30px;
+ box-shadow:0px 8px 12px 0px rgba(107,107,107,0.31);
+            border-radius: 12px;
+            padding: 20px;
+            color: white;
+        }
+
+        .welcome-container h3 {
+ color:#ffffff;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .welcome-container p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0;
+#c6c6c6
+        }
